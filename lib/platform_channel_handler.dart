@@ -9,10 +9,10 @@ class PlatformChannelHandler{
 
   static const platform = const MethodChannel('sampleChannel');
 
-  Future<bool> _isInputTextPalindrome() async {
+  Future<bool> isInputTextPalindrome(String text) async {
     bool isPalindrome;
     try {
-      isPalindrome = await platform.invokeMethod('isInputPalindrome');
+      isPalindrome = await platform.invokeMethod('isInputPalindrome',{"text": text});
 
     } on PlatformException catch (e) {
       isPalindrome = null;
