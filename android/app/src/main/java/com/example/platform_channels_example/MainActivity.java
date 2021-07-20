@@ -20,7 +20,6 @@ public class MainActivity extends FlutterActivity {
             @Override
             public void onMethodCall(MethodCall methodCall, MethodChannel.Result result) {
                 if(methodCall.method.equals("isInputPalindrome")){
-                    System.out.println("hereee");
                     boolean isBreak = false;
                     String input = methodCall.argument("text");
                     if(input != null){

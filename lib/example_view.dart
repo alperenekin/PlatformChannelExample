@@ -40,14 +40,14 @@ class _ExampleViewState extends State<ExampleView> {
                   .isInputTextPalindrome(textController.text);
               if (result) {
                 final snackBar = SnackBar(
-                  content: Text('This number is plandrome'),
+                  content: Text('This text is plandrome'),
                   backgroundColor: Colors.green,
                   duration: Duration(seconds: 1),
                 );
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               } else {
                 final snackBar = SnackBar(
-                    content: Text('This number is not plandrome'),
+                    content: Text('This text is not plandrome'),
                     backgroundColor: Colors.red,
                     duration: Duration(seconds: 1));
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
