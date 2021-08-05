@@ -5,4 +5,4 @@ An example Flutter project that uses platform channels to make a call Java nativ
 ## Getting Started
 ![](https://media.giphy.com/media/dJJ1Dek7KbhKUcvcQO/giphy.gif)
 
-Medium article which explains about platform channels: 
+Medium article which explains about platform channels: 👉 https://link.medium.com/aatTCt2Dtib 
